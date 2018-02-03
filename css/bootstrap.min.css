@@ -1,0 +1,48 @@
+/*global*/
+
+h1{
+	margin-top:0px;
+}
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+@font-face{
+	font-family: "Antraste";
+	src:url("Antraste.ttf");
+}
+
+nav.lg-screen{
+	background-color:#3b4b62;
+	color: antiquewhite;
+	width: 100%;
+	height: 60px;
+}
+ul{
+	border:2px solid red;
+
+}
+
+li{
+	display: inline-block;
+	text-transform: uppercase;
+
+}
+li:nth-child(1){
+	padding: 10px;
+}
+li:nth-child(2),li:nth-child(3),li:nth-child(4){
+	padding: 10px;
+	margin-top:10px;
+}
+li:hover{
+	background: #364252;
+}
+.navi-brand{
+	font-family: "Antraste";
+	font-size: 25px;
+}

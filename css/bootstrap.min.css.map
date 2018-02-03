@@ -1,0 +1,180 @@
+/* globals */
+*{
+	font-family: "Open Sans";
+}
+body{
+	background-color: antiquewhite;
+}
+
+button,input[type="text"],select{
+	width: 100%;
+	height: 40px;
+}
+
+.activate{
+	background-color:lightgreen;
+}
+/* classes */
+.wrapper{
+	max-width: 2000px;
+	padding:30px 20px;
+	margin:0px auto;
+}
+
+div.mainhome section.wrapper{
+	padding:10px 20px;
+}
+
+div.navi{
+	background:#3C5D93;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	color:#f0f0f0;
+	font-size: 25px;
+	font-weight: bolder;
+	padding:5px;
+}
+span.werk{
+	font-family: "Rockwell";
+	color:lightgray;
+}
+span.ph{
+	font-family: "LEMON/MILK";
+}
+
+div.mainhome{
+	position: relative;
+}
+div.mainhome section.wrapper{
+	position: absolute;
+	top:20px;
+	color:white;
+}
+div.mainhome pre{
+	background-color: transparent;
+	border:none;
+	font-family: "Open Sans";
+	margin-top:20px;
+	padding:0;
+	color: lightgray;
+}
+
+div.signups{
+	display: flex;
+	flex-wrap: wrap;
+}
+div.signups a{
+	flex-basis: 100%;
+	text-decoration: none;
+}
+div.signups input[type="submit"]{
+	width: 100%;
+	padding:5px;
+	border:1px solid #232323;
+	margin:5px 0;
+}
+
+div.signups #signup{
+	background-color: lightblue;
+
+}
+div.signups #signin{
+	background-color: #FEBA00;
+}
+div.signups input[type="submit"]:hover{
+	border:1px solid gray;
+}
+
+div.footer{
+	background:#3C5D91;
+	width: 100%;
+	height: auto;
+	color: antiquewhite;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+}
+div.footer label{
+	flex-basis: 100%;
+}
+div.footer p{
+	flex-basis: 50%;
+}
+
+div.footer-last{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #2A67E6;
+}
+
+div.footer-last section:first-child,div.footer-last section:last-child,div.footer-last p{
+	flex-basis: 100%;
+	color:white;
+}
+div.footer-last section:last-child{
+	display: flex;
+	justify-content: center;
+}
+div.footer-last section:last-child i{
+	margin:3px 5px;
+}
+div.footer-last section:last-child i:first-child{
+	padding:15px 18px;
+}
+div.footer-last .fa{
+	font-size: 20px;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding:15px;
+}
+
+/* signup.php */
+
+div.steps{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	cursor: pointer;
+
+}
+
+div.steps section{
+	flex-basis: 10%;
+	text-align: center;
+	border:1px solid forestgreen;
+	border-radius: 50%;
+	padding:10px 17px;
+}
+div.create_profile{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+div.create_profile label,div.create_profile input{
+	flex-basis: 100%;
+
+}
+div.create_profile input,select{
+	height: 40px;
+	background-color: transparent;
+	border:none;
+	border-bottom: 1px solid #282828;
+	margin-bottom: 10px;
+}
+
+div.create_profile button{
+	background-color: lightblue;
+}
+div#form2 label span{
+	font-weight: lighter;
+}
+
+div#form2{
+	display: none;
+}
+div#form3{
+	display: none;
+}

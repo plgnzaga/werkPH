@@ -1,0 +1,27 @@
+<?php
+
+class DbConfig{
+
+	private $host 	 = "localhost";
+	private $user	 = "root";
+	private $pwd	 = "";
+	private $db 	 = "werkph";
+
+	protected $connection;
+
+	public function __construct(){
+
+		if(!isset($this->connection)){
+			$this->connection = new mysqli($this->host,$this->user,$this->pwd,$this->db);
+
+			if(!$this->connection){
+				echo "Cannot Connect to the Database this time";
+				exit;
+			}
+		}
+		
+	return $this->connection;
+	}
+}
+
+?>
